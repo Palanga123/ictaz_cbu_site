@@ -1,0 +1,21 @@
+@page "/About"
+@rendermode InteractiveServer
+
+<div>
+    <div>
+        <p>
+            Hello? @name
+
+            <button class="btn btn-outline-danger">change</button>
+        </p>
+    </div>
+</div>
+
+@code {
+    private string name = "joshua";
+
+    private void changename()
+    {
+        name = "jack";
+    }
+}
