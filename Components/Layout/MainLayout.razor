@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+
+<div class="d-flex flex-column justify-content-between" style="min-height: 100vh;">
+    <div class="">
+        <div class="">
+            <NavMenus />
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="">
+            @Body
+        </div>
+    </div>
+
+    <div>
+        <Footer/>
+    </div>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+</div>

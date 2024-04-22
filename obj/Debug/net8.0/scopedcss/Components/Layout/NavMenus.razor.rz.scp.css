@@ -1,0 +1,23 @@
+.Nav[b-ftd5wby3lx]  a {
+    color: blue;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.Nav[b-ftd5wby3lx]  a:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.Nav[b-ftd5wby3lx]  a.active {
+    opacity: 0.7;
+}
+
+.nav-custom[b-ftd5wby3lx] {
+    position: sticky;
+    position: -webkit-sticky;
+    /* Safari */
+    top: 0;
+}
